@@ -1,5 +1,4 @@
 import sys
-import math
 
 args = sys.argv
 first_arg = int(args[1])
