@@ -7,11 +7,11 @@ date = args[1]
 year = int(date[0:4])
 month = int(date[4:6])
 day = int(date[6:])
-
 numOfAdults = int(args[2])
 numOfChildren = int(args[3])
 
 def is_holiday(d: int):
+  # NOTE: 5:土曜日、6:日曜日
   return d == 5 or d == 6
 
 weekday = datetime.datetime(year, month, day).weekday()
